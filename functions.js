@@ -12,7 +12,22 @@ function fullName(firstName, lastName) {
 
 //restituzione di un oggetto con entrambi i parametri
 const personName = fullName("Francesco", "Sales");
-console.log(personName);
+/* console.log(personName); */
+
+/////////////////hobbies//////////////
+
+// creo una funzione che restituisce tre parametri "hobby"
+function hobbies() {
+  const hobbyOne = "Gaming";
+  const hobbyTwo = "Reading";
+  const hobbyThree = "Music";
+  return [hobbyOne, hobbyTwo, hobbyThree];
+}
+
+const [h1, h2, h3] = hobbies();
+/* console.log(h1);
+console.log(h2);
+console.log(h3); */
 
 //esporto la funzione
-module.exports = fullName;
+module.exports = { fullName, hobbies };
