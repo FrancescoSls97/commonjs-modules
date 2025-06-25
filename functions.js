@@ -1,5 +1,3 @@
-console.log("hello");
-
 ///////////////////////name.js/////////////////////////////////
 
 // creo una funzione che restituisce due parametri "fullName" e "lastName"
